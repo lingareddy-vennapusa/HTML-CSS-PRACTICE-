@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+    <style>
+        *{
+
+            padding:0;
+            margin:0;
+            font-size:20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+          li a{
+            text-decoration: none;
+        }
+
+        li{
+            list-style: none;
+
+        }
+
+        .show{
+
+            width:100px;
+            background-color: black;
+        }
+
+        .dropdown{
+             display:none;
+            width:100px;
+            padding:10px;
+            background-color: bisque;
+           
+        }
+
+        li.a:hover{
+            display:block;
+        }
+
+        li a:hover .dropdown{
+            display:block;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1> dropdown</h1>
+
+         <ul class ="menu">
+
+         <li ><a href="#"> Menu</a></li>
+         <li> 
+              <ul class="dropdown"> 
+                  <li><a href="#"> Home</a></li>
+                   <li><a href="#"> about</a></li>
+                    <li><a href="#"> contact</a></li>
+             </ul>
+
+         </li>
+</ul>
+    
+
+
+
+
+
+</body>
+</html>
